@@ -22,7 +22,7 @@ with open('ex4.txt', 'w') as f:
   for i in range(len(nomesTransc)):
     f.write(nomesTransc[i])
     for j in range(len(notasTransc[i])): 
-      if j == 2:
+      if j == len(notasTansc[i]-1):
         f.write(str(notasTransc[i][j])+'\n')
       else:
         f.write(str(notasTransc[i][j])+' ')
