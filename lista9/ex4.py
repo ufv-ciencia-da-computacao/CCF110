@@ -12,4 +12,3 @@ with open('ex4.txt', 'w') as f:
     f.write(k)
     for x in v:
       f.write(x)
-    f.write('\n')
